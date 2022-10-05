@@ -1,0 +1,20 @@
+public class Mahasiswa {
+    private string nim;
+    private string nama;
+
+    public void setNim(string nim) {
+        this.nim = nim;
+    }
+
+    public string getNim() {
+        return this.nim;
+    }
+
+    public void setNama(string nama) {
+        this.nama = nama;
+    }
+
+    public string getNama() {
+        return this.nama;
+    }
+}
